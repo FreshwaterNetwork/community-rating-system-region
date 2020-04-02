@@ -1,0 +1,33 @@
+<style>
+	#popupAttWrap{
+	   color: #5d6165; font-size:13px;
+	}
+	#hideDesc{
+		position:absolute; top:2px; right:4px; cursor:pointer; 
+	}
+	#popupAttWrap input{
+		margin-left:3px; margin-bottom:4px; font-weight:bold; width:120px; border-color:#dfdfdf; padding-left:4px;
+	}	
+	}
+	#hideDesc .fa-info-circle{
+		font-size:21px; color:#457545; cursor:pointer;
+	}
+	#hideDesc .fa-close{
+		font-size:21px; color:#d64000; cursor:pointer;
+	}
+	#hideDesc .feInfoClose:hover{
+		font-weight:bold;
+	}
+</style>
+<div id="popupAttWrap">
+	<label for="NAME">Name</label><input style="width:70%;" type="text" name="NAME" id="NAME" disabled><br>
+	<label for="AreaAcres">Watershed area (acres)</label><input type="text" name="AreaAcres" id="AreaAcres" disabled><br>
+	<label for="Acres_p2">Floodplain (100-year) in forest or wetland (acres)</label><input type="text" name="Acres_p2" id="Acres_p2" disabled><br>
+	<label for="Acres_r2">Floodplain (100-year) in ag or pasture (acres)</label><input type="text" name="Acres_r2" id="Acres_r2" disabled><br>
+	<label for="ACCp_p2">Local nutrient loading, percentile (1-100 scale)</label><input type="text" name="ACCp_p2" id="ACCp_p2" disabled><br>
+	<label for="DINp_p2">Nutrient loading to Gulf, percentile (1-100 scale)</label><input type="text" name="DINp_p2" id="DINp_p2" disabled><br>
+	<label for="popnow2">Current population in 100-year floodplain</label><input type="text" name="popnow2" id="popnow2" disabled><br>
+	<label for="P2_2050_2">Damage ($) to buildings exposed to flooding in 2050</label><input type="text" name="P2_2050_2" id="P2_2050_2" disabled><br>
+	<label for="SOVI">Social vulnerability index</label><input type="text" name="SOVI" id="SOVI" disabled>
+</div>
+<div id="hideDesc"><i class="fa fa-close feInfo feInfoClose"></i></div>

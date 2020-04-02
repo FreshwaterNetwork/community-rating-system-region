@@ -1,0 +1,9 @@
+{
+  "plugins": [
+	 {
+  	      "repo": "community-rating-system",
+  	      "name": "community-rating-system",
+  	      "org": "FreshwaterNetwork"
+    }
+  ]
+}
